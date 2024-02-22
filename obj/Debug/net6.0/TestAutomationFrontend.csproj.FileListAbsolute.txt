@@ -413,3 +413,4 @@ C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\TestAu
 C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\TestAutomationFrontend\obj\Debug\net6.0\TestAutomationFrontend.pdb
 C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\TestAutomationFrontend\obj\Debug\net6.0\TestAutomationFrontend.genruntimeconfig.cache
 C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\TestAutomationFrontend\obj\Debug\net6.0\ref\TestAutomationFrontend.dll
+C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\TestAutomationFrontend\obj\Debug\net6.0\TestAutomationFrontend.sourcelink.json

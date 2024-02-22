@@ -5,12 +5,11 @@ namespace TestAutomationFrontend.PageObjects;
 public class LoginPage : BasePage
 {
     public LoginPage(IPage page) : base(page) { }
-    public ILocator UsernameField() => _page.Locator("#:r1:");
-    public ILocator PasswordField() => _page.Locator("#:r3:");
-    public ILocator IniciarBtn() => _page.Locator(":has-text(\"Iniciar\")");
-    public ILocator WelcomeMessage() => _page.Locator(":has-text(\"Bienvenido\")");
 
-    public async Task GotoLoginPage() => await _page.GotoAsync("Insert Login page URL");
+    public ILocator UsernameField() => _page.Locator("#\\3Ar1\\3A");
+    public ILocator PasswordField() => _page.Locator("#\\3Ar3\\3A");
+    public ILocator IniciarBtn() => _page.Locator(".MuiButton-containedSizeMedium.css-1pevvt3-MuiButtonBase-root-MuiButton-root");
+
 
     public async Task EnterLoginCredentials(string username,  string password)
     {

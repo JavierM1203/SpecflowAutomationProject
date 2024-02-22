@@ -26,7 +26,7 @@ namespace TestAutomationFrontend.StepDefinitions
         [When(@"I click the Login button")]
         public async Task WhenIClickTheLoginButton()
         {
-            await LoginPage().IniciarBtn().ClickAsync();
+            await InicioPage().IniciarBtn().ClickAsync();
         }
 
         [Then(@"I should see the Login page")]

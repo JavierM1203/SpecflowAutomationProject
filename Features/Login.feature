@@ -1,7 +1,8 @@
 Feature: Login
 
+@only
 Scenario: Login exitoso
-	Given estoy en la página de inicio de sesión
+	Given estoy en la pagina de inicio de sesion
 	When ingreso mis credenciales correctas
-	And presiono el botón “Ingresar”
-	Then El usuario es dirigido a su página de perfil
+	And presiono el boton Ingresar
+	Then El usuario es dirigido a su pagina de perfil
