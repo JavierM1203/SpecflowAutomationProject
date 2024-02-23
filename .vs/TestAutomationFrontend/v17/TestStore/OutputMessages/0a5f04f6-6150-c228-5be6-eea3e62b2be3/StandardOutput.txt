@@ -1,0 +1,242 @@
+Given estoy en la pagina de inicio de sesion
+-> done: LoginStepDefinitions.GivenEstoyEnLaPaginaDeInicioDeSesion() (1,8s)
+When hago clic en "Olvid� mi contrase�a"
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"hago clic en ""(.*)""")]
+        public void WhenHagoClicEn(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+Then se me redirige a la p�gina de recuperaci�n de contrase�a
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"se me redirige a la p�gina de recuperaci�n de contrase�a")]
+        public void ThenSeMeRedirigeALaPGinaDeRecuperaciNDeContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+
+When ingreso mi direcci�n de correo electr�nico registrada
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"ingreso mi direcci�n de correo electr�nico registrada")]
+        public void WhenIngresoMiDirecciNDeCorreoElectrNicoRegistrada()
+        {
+            _scenarioContext.Pending();
+        }
+
+And hago clic en el bot�n de recuperaci�n
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"hago clic en el bot�n de recuperaci�n")]
+        public void WhenHagoClicEnElBotNDeRecuperaciN()
+        {
+            _scenarioContext.Pending();
+        }
+
+Then recibo un correo electr�nico con instrucciones para restablecer mi contrase�a
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"recibo un correo electr�nico con instrucciones para restablecer mi contrase�a")]
+        public void ThenReciboUnCorreoElectrNicoConInstruccionesParaRestablecerMiContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+
+When abro el correo electr�nico de recuperaci�n
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"abro el correo electr�nico de recuperaci�n")]
+        public void WhenAbroElCorreoElectrNicoDeRecuperaciN()
+        {
+            _scenarioContext.Pending();
+        }
+
+And hago clic en el enlace proporcionado
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"hago clic en el enlace proporcionado")]
+        public void WhenHagoClicEnElEnlaceProporcionado()
+        {
+            _scenarioContext.Pending();
+        }
+
+Then se me redirige a la p�gina de cambio de contrase�a
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"se me redirige a la p�gina de cambio de contrase�a")]
+        public void ThenSeMeRedirigeALaPGinaDeCambioDeContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+
+When ingreso una nueva contrase�a
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"ingreso una nueva contrase�a")]
+        public void WhenIngresoUnaNuevaContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+
+And confirmo la nueva contrase�a
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"confirmo la nueva contrase�a")]
+        public void WhenConfirmoLaNuevaContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+
+And hago clic en el bot�n de guardar cambios
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"hago clic en el bot�n de guardar cambios")]
+        public void WhenHagoClicEnElBotNDeGuardarCambios()
+        {
+            _scenarioContext.Pending();
+        }
+
+Then deber�a ver un mensaje de confirmaci�n de que mi contrase�a ha sido actualizada con �xito
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"deber�a ver un mensaje de confirmaci�n de que mi contrase�a ha sido actualizada con �xito")]
+        public void ThenDeberAVerUnMensajeDeConfirmaciNDeQueMiContraseAHaSidoActualizadaConXito()
+        {
+            _scenarioContext.Pending();
+        }
+
+And deber�a ser redirigido a la p�gina de inicio de sesi�n
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"deber�a ser redirigido a la p�gina de inicio de sesi�n")]
+        public void ThenDeberASerRedirigidoALaPGinaDeInicioDeSesiN()
+        {
+            _scenarioContext.Pending();
+        }
+
+When ingreso mis nuevas credenciales
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"ingreso mis nuevas credenciales")]
+        public void WhenIngresoMisNuevasCredenciales()
+        {
+            _scenarioContext.Pending();
+        }
+
+And hago clic en el bot�n de inicio de sesi�n
+-> No matching step definition found for the step. Use the following code to create one:
+        [When(@"hago clic en el bot�n de inicio de sesi�n")]
+        public void WhenHagoClicEnElBotNDeInicioDeSesiN()
+        {
+            _scenarioContext.Pending();
+        }
+
+Then deber�a ser redirigido a mi p�gina de perfil
+-> No matching step definition found for the step. Use the following code to create one:
+        [Then(@"deber�a ser redirigido a mi p�gina de perfil")]
+        public void ThenDeberASerRedirigidoAMiPGinaDePerfil()
+        {
+            _scenarioContext.Pending();
+        }
+
+No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        private readonly ScenarioContext _scenarioContext;
+
+        public StepDefinitions(ScenarioContext scenarioContext)
+        {
+            _scenarioContext = scenarioContext;
+        }
+        [When(@"hago clic en ""(.*)""")]
+        public void WhenHagoClicEn(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"ingreso mi direcci�n de correo electr�nico registrada")]
+        public void WhenIngresoMiDirecciNDeCorreoElectrNicoRegistrada()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"hago clic en el bot�n de recuperaci�n")]
+        public void WhenHagoClicEnElBotNDeRecuperaciN()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"abro el correo electr�nico de recuperaci�n")]
+        public void WhenAbroElCorreoElectrNicoDeRecuperaciN()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"hago clic en el enlace proporcionado")]
+        public void WhenHagoClicEnElEnlaceProporcionado()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"ingreso una nueva contrase�a")]
+        public void WhenIngresoUnaNuevaContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"confirmo la nueva contrase�a")]
+        public void WhenConfirmoLaNuevaContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"hago clic en el bot�n de guardar cambios")]
+        public void WhenHagoClicEnElBotNDeGuardarCambios()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"ingreso mis nuevas credenciales")]
+        public void WhenIngresoMisNuevasCredenciales()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [When(@"hago clic en el bot�n de inicio de sesi�n")]
+        public void WhenHagoClicEnElBotNDeInicioDeSesiN()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"se me redirige a la p�gina de recuperaci�n de contrase�a")]
+        public void ThenSeMeRedirigeALaPGinaDeRecuperaciNDeContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"recibo un correo electr�nico con instrucciones para restablecer mi contrase�a")]
+        public void ThenReciboUnCorreoElectrNicoConInstruccionesParaRestablecerMiContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"se me redirige a la p�gina de cambio de contrase�a")]
+        public void ThenSeMeRedirigeALaPGinaDeCambioDeContraseA()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"deber�a ver un mensaje de confirmaci�n de que mi contrase�a ha sido actualizada con �xito")]
+        public void ThenDeberAVerUnMensajeDeConfirmaciNDeQueMiContraseAHaSidoActualizadaConXito()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"deber�a ser redirigido a la p�gina de inicio de sesi�n")]
+        public void ThenDeberASerRedirigidoALaPGinaDeInicioDeSesiN()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"deber�a ser redirigido a mi p�gina de perfil")]
+        public void ThenDeberASerRedirigidoAMiPGinaDePerfil()
+        {
+            _scenarioContext.Pending();
+        }
+    }
+}

@@ -30,15 +30,17 @@ public class UploadImageStepDefinitions : BaseStepDefinitions
         await IdentificarPage().AssertSubirBtnIsVisible();
     }
 
+    [Given(@"el usuario presiona el boton escanear")]
     [When(@"el usuario presiona el boton escanear")]
-    public void WhenElUsuarioPresionaElBotonEscanear()
+    public async Task WhenElUsuarioPresionaElBotonEscanear()
     {
-        //throw new PendingStepException();
+        await IdentificarPage().SubirBtn().ClickAsync();
     }
 
+    [Given(@"se reconoce un modelo del electrodomestico en la base de datos")]
     [Then(@"se reconoce un modelo del electrodomestico en la base de datos")]
-    public void ThenSeReconoceUnModeloDelElectrodomesticoEnLaBaseDeDatos()
+    public async Task ThenSeReconoceUnModeloDelElectrodomesticoEnLaBaseDeDatos()
     {
-        //throw new PendingStepException();
+        await IdentificarPage().AssertRecognizedDeviceIsVisible();
     }
 }
