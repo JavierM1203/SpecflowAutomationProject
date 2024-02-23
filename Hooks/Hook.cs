@@ -22,7 +22,7 @@ namespace SpecFlowProject1.Hooks
             var playwright = await Playwright.CreateAsync();
             _browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
             {
-                Headless = false,
+                Headless = true,
                 Channel = "chrome",
             });
             _page = await _browser.NewPageAsync();

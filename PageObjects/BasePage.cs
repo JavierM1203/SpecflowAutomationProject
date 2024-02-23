@@ -1,15 +1,12 @@
 ﻿using Microsoft.Playwright;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Playwright.NUnit;
 
 namespace TestAutomationFrontend.PageObjects;
 
-public abstract class BasePage
+public abstract class BasePage : PageTest
 {
     protected readonly IPage _page;
+    
     public BasePage(IPage page) => _page = page;
     
 }

@@ -1,5 +1,3 @@
-using System;
-using TechTalk.SpecFlow;
 using TestAutomationFrontend.PageObjects;
 
 namespace TestAutomationFrontend.StepDefinitions
@@ -12,9 +10,7 @@ namespace TestAutomationFrontend.StepDefinitions
         [Given(@"estoy en la pagina de inicio de sesion")]
         public async Task GivenEstoyEnLaPaginaDeInicioDeSesion()
         {
-            await IntroPage().GotoIntroPage();
-            await IntroPage().OmitirBtn().ClickAsync();
-            await InicioPage().IniciarBtn().ClickAsync();
+            await GotoLoginPage();
             await Expect(LoginPage().UsernameField()).ToBeVisibleAsync();
         }
 
@@ -27,14 +23,26 @@ namespace TestAutomationFrontend.StepDefinitions
         [When(@"presiono el boton Ingresar")]
         public async Task WhenPresionoElBotonIngresar()
         {
-            await LoginPage().IniciarBtn().ClickAsync();
+            await LoginPage().ClickOnIniciarBtn();
         }
 
         [Then(@"El usuario es dirigido a su pagina de perfil")]
         public async Task ThenElUsuarioEsDirigidoASuPaginaDePerfil()
         {
-            await Expect(ForoPage().WelcomeMessage()).ToBeVisibleAsync();
-            await ForoPage().Identificar().ClickAsync();
+            await ForoPage().AssertWelcomeMessageIsVisible();
         }
+
+        [When(@"ingreso credenciales incorrectas")]
+        public async Task WhenIngresoCredencialesIncorrectas()
+        {
+            await LoginPage().EnterLoginCredentials("invalid", "invalid");
+        }
+
+        [Then(@"Se muestra un mensaje de error al usuario")]
+        public void ThenSeMuestraUnMensajeDeErrorAlUsuario()
+        {
+            throw new PendingStepException("Step is no defined");
+        }
+
     }
 }
